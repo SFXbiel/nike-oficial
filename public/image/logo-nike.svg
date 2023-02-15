@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74.933" height="25.759" viewBox="0 0 74.933 25.759">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.355" x2="1" y2="0.18" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f13091"/>
+      <stop offset="0.435" stop-color="#e13ad6"/>
+      <stop offset="0.783" stop-color="#be3cff"/>
+      <stop offset="1" stop-color="#6c18ff"/>
+    </linearGradient>
+  </defs>
+  <g id="nike" transform="translate(0 -168.002)">
+    <g id="Group_3507" data-name="Group 3507" transform="translate(0 168.002)">
+      <path id="Path_433" data-name="Path 433" d="M42.114,176.46l-4.655,1.222-12.916,3.381c-4.561,1.129-8.552,2.632-12.4,1.316-5.226-2.257-5.133-8.13-1.236-14.378-6.889,5.685-19.285,23.866-2.52,25.7,2.136.281,5.938-.468,10.069-2.206l19-7.8,37.475-15.323Z" transform="translate(0 -168.002)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

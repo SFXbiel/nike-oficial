@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  max-height: 100vh;
+  background-color: #302e2e; 
+}
+body::-webkit-scrollbar{
+  background-color: transparent;
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+  background: linear-gradient(150deg, #6943FF ,#D43FFF,#FF2B81 );
+  border-radius: 10px;
+}
