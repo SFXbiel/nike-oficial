@@ -1,0 +1,84 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.adapt-conjunto {
+    width: 100vw;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.adapt-conjunto img{
+    width: 55%;
+}
+.adapt-conjunto div{
+    width: 100%;
+    text-align: center;
+    color: #a4acac;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.adapt-conjunto h1{
+    font-size: 2.5rem;
+}
+.adapt-button:active{
+    transform: scale(0.98);
+    filter: hue-rotate(10deg);
+}
+.tenis{
+    background: url("/image/NIKE-3.png"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tenis img{
+    width: 100%;
+}
+.produtos{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center; 
+    width: 100%;
+}
+.produtos-detalhe{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+   
+}
+.produtos-cards{
+    min-height: 10vh;
+    background-color: rgba(17, 17, 17, 0.1);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.produtos h2{
+    font-size: 2.8rem;
+    color: #ffffff96;
+}
+
+.produtos summary{
+    color: #ffffffd8;
+    filter: brightness(70%);
+}
+.produtos summary:hover{
+    color: #ffffffb4;
+    filter: brightness(100%);
+}
+.produtos option:active{
+    color: #ae00ff;
+}
+
+.proddutos-botao{
+     width: 100%;
+     padding: 1rem;
+}

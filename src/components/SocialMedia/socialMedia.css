@@ -1,0 +1,19 @@
+.social-media{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+.social-media img{
+    filter: brightness(95%);
+    width: 5vw;
+}
+.social-media img:active{
+    scale: .95;
+}
+
+.social-media img:hover{
+  filter: brightness(220%);
+  cursor: pointer;
+}
