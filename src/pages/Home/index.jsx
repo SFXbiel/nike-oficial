@@ -21,6 +21,16 @@ export function Home() {
 
       <div className="produtos">
         <h2>$379</h2>
+        <div className='bolas'>
+          <img src="image/left-arrow(1).png" alt="Seta rosa" />
+          <div className="sub-footer">
+            <div className="bolinha1 bola1"></div>
+            <div className="bolinha1 bola2"></div>
+            <div className="bolinha1 bola3"></div>
+            <div className="bolinha1 bola4"></div>
+          </div>
+          <img src="image/right-arrow(1).png" alt="Seta azul" />
+        </div>
         <div className="produtos-detalhe">
           <details className="produtos-cards">
             <summary title="Tamanho">Size</summary>
@@ -37,9 +47,10 @@ export function Home() {
             <option value="Verde">Green</option>
           </details>
         </div>
-       
-          <button className="produtos-botao" type="submit">BUY NOW</button>
-        
+
+        <button className="produtos-botao" type="submit">
+          BUY NOW
+        </button>
       </div>
       <div>
         <SocialMedia />

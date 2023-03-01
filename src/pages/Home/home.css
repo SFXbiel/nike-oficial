@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200;400&display=swap');
 .home{
     display: flex;
     flex-direction: column;
@@ -78,7 +79,53 @@
     color: #ae00ff;
 }
 
-.proddutos-botao{
-     width: 100%;
-     padding: 1rem;
+.produtos-botao{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #18a1fc;
+    text-shadow: 0px 2px 3px #0fb9fc;
+}
+.produtos-botao:active{
+    color: #00ff0d;
+    text-shadow: 0px 2px 3px #00ff0d;
+}
+
+.sub-footer{
+    display: flex;
+    gap: 1rem;
+}
+.bolas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+} 
+.bolinha1{
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.bola1{
+    background: #FF2B81;
+    box-shadow: 0 0 7px #FF2B81;
+}
+.bola2{
+    border: 2px solid #D95EC0;
+    box-shadow: 0 0 3px #D95EC0;
+}
+.bola3{
+    border: 2px solid #704dff;
+    box-shadow: 0 0 3px #704dff;
+}
+.bola4{
+    border: 2px solid #00ccff;
+    box-shadow: 0 0 3px #00ccff;
 }
